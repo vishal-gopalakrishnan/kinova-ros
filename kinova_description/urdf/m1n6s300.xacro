@@ -21,6 +21,7 @@
 
     <!-- Import all Gazebo-customization elements -->
     <xacro:include filename="$(find kinova_description)/urdf/kinova.gazebo" />
+    <xacro:include filename='camera.xacro'/>
 
     <xacro:property name="link_base_mesh" value="base" />
     <xacro:property name="link_1_mesh" value="shoulder" />
